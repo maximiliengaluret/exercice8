@@ -62,7 +62,7 @@ $args = array(
  $args2 = array(
 
     "category_name" => "evenements-3",
-    'posts_per_page' => 3
+    'posts_per_page' => 4
 );
 
  //The 2nd Query (without global var) 
