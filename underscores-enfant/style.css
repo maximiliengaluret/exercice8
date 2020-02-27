@@ -16,4 +16,32 @@ img{
 
     opacity: .5;
     width: 50%;
+    cursor: pointer;
+    
 }
+
+img:hover{
+
+    opacity: 1;
+}
+
+h1{
+
+    animation: espacement 2s ease-out forwards infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes espacement{
+    0%{
+      letter-spacing: -17px;
+      opacity: 0;
+    }
+    30%{
+      letter-spacing: 4px;
+      opacity: 1;
+    }
+    100%{
+      letter-spacing: 4px;
+      opacity: 1;
+    }
+  }
