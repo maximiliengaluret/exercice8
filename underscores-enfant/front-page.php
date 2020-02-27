@@ -59,18 +59,27 @@ $args = array(
  wp_reset_postdata();
   
   
- /* The 2nd Query (without global var) 
+ $args2 = array(
+
+    "category_name" => "evenements-3",
+    'posts_per_page' => 3
+);
+
+ //The 2nd Query (without global var) 
  $query2 = new WP_Query( $args2 );
   
  // The 2nd Loop
  while ( $query2->have_posts() ) {
      $query2->the_post();
-     echo '<li>' . get_the_title( $query2->post->ID ) . '</li>';
+     echo '<li>' . get_the_title() . '</li>';
+     echo '<p>'. get_the_excerpt() . '</p>';
+     the_post_thumbnail('thumbnail');
+     
  }
   
  // Restore original Post Data
  wp_reset_postdata();
-  */
+  
  ?>
 
 		</main><!-- #main -->
