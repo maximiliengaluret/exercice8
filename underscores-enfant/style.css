@@ -11,3 +11,9 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  underscores-enfant
 */
+
+img{
+
+    opacity: .5;
+    width: 50%;
+}
