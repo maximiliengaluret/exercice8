@@ -1,0 +1,47 @@
+/*
+ Theme Name:   Astral enfant
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Maximilien 
+ Author URI:   http://example.com
+ Template:     Astral
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astral-enfant
+*/
+
+img{
+
+    opacity: .5;
+    width: 50%;
+    cursor: pointer;
+    
+}
+
+img:hover{
+
+    opacity: 1;
+}
+
+h1{
+
+    animation: espacement 2s ease-out forwards infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes espacement{
+    0%{
+      letter-spacing: -17px;
+      opacity: 0;
+    }
+    30%{
+      letter-spacing: 4px;
+      opacity: 1;
+    }
+    100%{
+      letter-spacing: 4px;
+      opacity: 1;
+    }
+  }
